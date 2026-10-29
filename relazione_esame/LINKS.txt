@@ -1,0 +1,6 @@
+SpaceB&B - Link del progetto
+
+Trello:   https://trello.com/b/7uROCRs5/progetto-2026
+Miro:     [inserire il link della board Miro]
+Backend (GitHub):   [inserire il link del repository]
+Figma / prototipo (facoltativo):   [inserire il link, se presente]

@@ -1,0 +1,19 @@
+# Avvia un MySQL 8.0 pronto per il backend.
+# Uso:  docker compose up -d
+# Lo schema viene creato automaticamente da database/schema.sql.
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: soggiorna-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: soggiorna
+    ports:
+      - "3306:3306"
+    volumes:
+      - soggiorna_data:/var/lib/mysql
+      - ./database/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+
+volumes:
+  soggiorna_data:

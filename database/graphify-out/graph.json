@@ -1,0 +1,533 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "schema.sql",
+      "file_type": "code",
+      "source_file": "schema.sql",
+      "source_location": null,
+      "_origin": "ast",
+      "id": "schema",
+      "community": 0,
+      "norm_label": "schema.sql"
+    },
+    {
+      "label": "utente",
+      "file_type": "code",
+      "source_file": "schema.sql",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "schema_utente",
+      "community": 1,
+      "norm_label": "utente"
+    },
+    {
+      "label": "servizio",
+      "file_type": "code",
+      "source_file": "schema.sql",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "schema_servizio",
+      "community": 0,
+      "norm_label": "servizio"
+    },
+    {
+      "label": "alloggio",
+      "file_type": "code",
+      "source_file": "schema.sql",
+      "source_location": "L54",
+      "_origin": "ast",
+      "id": "schema_alloggio",
+      "community": 0,
+      "norm_label": "alloggio"
+    },
+    {
+      "label": "alloggio_servizio",
+      "file_type": "code",
+      "source_file": "schema.sql",
+      "source_location": "L80",
+      "_origin": "ast",
+      "id": "schema_alloggio_servizio",
+      "community": 0,
+      "norm_label": "alloggio_servizio"
+    },
+    {
+      "label": "foto",
+      "file_type": "code",
+      "source_file": "schema.sql",
+      "source_location": "L89",
+      "_origin": "ast",
+      "id": "schema_foto",
+      "community": 0,
+      "norm_label": "foto"
+    },
+    {
+      "label": "disponibilita",
+      "file_type": "code",
+      "source_file": "schema.sql",
+      "source_location": "L100",
+      "_origin": "ast",
+      "id": "schema_disponibilita",
+      "community": 0,
+      "norm_label": "disponibilita"
+    },
+    {
+      "label": "prenotazione",
+      "file_type": "code",
+      "source_file": "schema.sql",
+      "source_location": "L111",
+      "_origin": "ast",
+      "id": "schema_prenotazione",
+      "community": 2,
+      "norm_label": "prenotazione"
+    },
+    {
+      "label": "pagamento",
+      "file_type": "code",
+      "source_file": "schema.sql",
+      "source_location": "L131",
+      "_origin": "ast",
+      "id": "schema_pagamento",
+      "community": 2,
+      "norm_label": "pagamento"
+    },
+    {
+      "label": "recensione",
+      "file_type": "code",
+      "source_file": "schema.sql",
+      "source_location": "L146",
+      "_origin": "ast",
+      "id": "schema_recensione",
+      "community": 2,
+      "norm_label": "recensione"
+    },
+    {
+      "label": "spesa",
+      "file_type": "code",
+      "source_file": "schema.sql",
+      "source_location": "L171",
+      "_origin": "ast",
+      "id": "schema_spesa",
+      "community": 2,
+      "norm_label": "spesa"
+    },
+    {
+      "label": "veicolo",
+      "file_type": "code",
+      "source_file": "schema.sql",
+      "source_location": "L187",
+      "_origin": "ast",
+      "id": "schema_veicolo",
+      "community": 1,
+      "norm_label": "veicolo"
+    },
+    {
+      "label": "prenotazione_veicolo",
+      "file_type": "code",
+      "source_file": "schema.sql",
+      "source_location": "L209",
+      "_origin": "ast",
+      "id": "schema_prenotazione_veicolo",
+      "community": 1,
+      "norm_label": "prenotazione_veicolo"
+    },
+    {
+      "label": "esperienza",
+      "file_type": "code",
+      "source_file": "schema.sql",
+      "source_location": "L229",
+      "_origin": "ast",
+      "id": "schema_esperienza",
+      "community": 1,
+      "norm_label": "esperienza"
+    },
+    {
+      "label": "prenotazione_esperienza",
+      "file_type": "code",
+      "source_file": "schema.sql",
+      "source_location": "L250",
+      "_origin": "ast",
+      "id": "schema_prenotazione_esperienza",
+      "community": 1,
+      "norm_label": "prenotazione_esperienza"
+    },
+    {
+      "label": "punto_interesse",
+      "file_type": "code",
+      "source_file": "schema.sql",
+      "source_location": "L269",
+      "_origin": "ast",
+      "id": "schema_punto_interesse",
+      "community": 0,
+      "norm_label": "punto_interesse"
+    },
+    {
+      "label": "seed.sql",
+      "file_type": "code",
+      "source_file": "seed.sql",
+      "source_location": null,
+      "_origin": "ast",
+      "id": "seed",
+      "community": 3,
+      "norm_label": "seed.sql"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L54",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema",
+      "target": "schema_alloggio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L80",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema",
+      "target": "schema_alloggio_servizio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L100",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema",
+      "target": "schema_disponibilita",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L229",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema",
+      "target": "schema_esperienza",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L89",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema",
+      "target": "schema_foto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L131",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema",
+      "target": "schema_pagamento",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L111",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema",
+      "target": "schema_prenotazione",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L250",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema",
+      "target": "schema_prenotazione_esperienza",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L209",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema",
+      "target": "schema_prenotazione_veicolo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L269",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema",
+      "target": "schema_punto_interesse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L146",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema",
+      "target": "schema_recensione",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema",
+      "target": "schema_servizio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L171",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema",
+      "target": "schema_spesa",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema",
+      "target": "schema_utente",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L187",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema",
+      "target": "schema_veicolo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L54",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema_alloggio",
+      "target": "schema_utente",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L229",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema_esperienza",
+      "target": "schema_utente",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L111",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema_prenotazione",
+      "target": "schema_utente",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L250",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema_prenotazione_esperienza",
+      "target": "schema_utente",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L209",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema_prenotazione_veicolo",
+      "target": "schema_utente",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L187",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema_veicolo",
+      "target": "schema_utente",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L80",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema_alloggio_servizio",
+      "target": "schema_servizio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L80",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema_alloggio_servizio",
+      "target": "schema_alloggio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L100",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema_disponibilita",
+      "target": "schema_alloggio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L89",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema_foto",
+      "target": "schema_alloggio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L111",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema_prenotazione",
+      "target": "schema_alloggio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L146",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema_recensione",
+      "target": "schema_alloggio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L131",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema_pagamento",
+      "target": "schema_prenotazione",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L146",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema_recensione",
+      "target": "schema_prenotazione",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L171",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema_spesa",
+      "target": "schema_prenotazione",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L209",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema_prenotazione_veicolo",
+      "target": "schema_veicolo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "schema.sql",
+      "source_location": "L250",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "schema_prenotazione_esperienza",
+      "target": "schema_esperienza",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "187e47469aca87cd4c25257b755d5199497ec431"
+}
