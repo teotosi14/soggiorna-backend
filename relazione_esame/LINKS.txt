@@ -1,4 +1,4 @@
 Trello:   https://trello.com/b/7uROCRs5/progetto-2026
-Miro:     [inserire il link della board Miro]
+Miro:     https://miro.com/app/board/uXjVG0oJsIQ=/?share_link_id=960626609511
 Backend (GitHub):   https://github.com/teotosi14/soggiorna-backend
 Frontend (GitHub):   https://github.com/teotosi14/soggiorna-frontend
